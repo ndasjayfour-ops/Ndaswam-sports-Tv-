@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="sw">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SwajayFour Online TV</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">SwajayFour</div>
+    <div class="search">
+      <input id="searchInput" placeholder="Tafuta channel..." />
+    </div>
+    <div class="top-actions">
+      <button onclick="location.href='settings.html'">Settings</button>
+      <button onclick="location.href='signup.html'">Signup</button>
+      <button onclick="location.href='login.html'">Login</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Karibu SwajayFour Online TV</h1>
+      <p>Tazama Bongo Sports, Movies, na International Channels.</p>
+    </section>
+
+    <nav class="category-bar">
+      <a href="index.html">Home</a>
+      <a href="sports.html">Sports</a>
+      <a href="allchannels.html">All Channels</a>
+      <a href="movies.html">Movies</a>
+      <a href="malipo.html">Malipo</a>
+    </nav>
+
+    <section class="channels-grid" id="bongo-sports">
+      <h2>Bongo Sports</h2>
+      <div class="grid" id="bongoGrid"></div>
+    </section>
+
+    <section class="channels-grid" id="movies">
+      <h2>Movies & Series</h2>
+      <div class="grid" id="moviesGrid"></div>
+    </section>
+
+    <section class="channels-grid" id="intl-sports">
+      <h2>International Sports</h2>
+      <div class="grid" id="intlGrid"></div>
+    </section>
+  </main>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
